@@ -92,9 +92,7 @@ Para conectar el backend con la base de datos configurada previamente:
 3. Ejecute mediante el perfil de **http/https**.
 4. **Swagger** se iniciará automáticamente para probar los endpoints.
 
-<p align="center">
-  <img src="https://imgur.com/a/klrpiHP" alt="Arquitectura Backend" width="600px">
-</p>
+![Arquitectura Backend](https://i.imgur.com/JULUq0n.png)
 
 ---
 
