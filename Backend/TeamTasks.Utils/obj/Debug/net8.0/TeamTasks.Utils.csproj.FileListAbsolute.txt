@@ -1,0 +1,11 @@
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.Utils\bin\Debug\net8.0\TeamTasks.Utils.deps.json
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.Utils\bin\Debug\net8.0\TeamTasks.Utils.dll
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.Utils\bin\Debug\net8.0\TeamTasks.Utils.pdb
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.Utils\obj\Debug\net8.0\TeamTasks.Utils.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.Utils\obj\Debug\net8.0\TeamTasks.Utils.AssemblyInfoInputs.cache
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.Utils\obj\Debug\net8.0\TeamTasks.Utils.AssemblyInfo.cs
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.Utils\obj\Debug\net8.0\TeamTasks.Utils.csproj.CoreCompileInputs.cache
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.Utils\obj\Debug\net8.0\TeamTasks.Utils.dll
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.Utils\obj\Debug\net8.0\refint\TeamTasks.Utils.dll
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.Utils\obj\Debug\net8.0\TeamTasks.Utils.pdb
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.Utils\obj\Debug\net8.0\ref\TeamTasks.Utils.dll

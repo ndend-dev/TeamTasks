@@ -1,0 +1,90 @@
+<div class="w-full bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+  <div class="overflow-x-auto">
+    <table class="w-full text-sm text-left">
+      <thead class="bg-slate-50 text-slate-500 font-semibold border-b border-slate-200">
+        <tr>
+          @for (col of displayColumns(); track col.key) {
+            <th
+              (click)="toggleSort(col.key)"
+              class="px-6 py-4 cursor-pointer hover:bg-slate-100 transition-colors"
+            >
+              <div class="flex items-center gap-2">
+                {{ col.label }}
+                <lucide-icon
+                  *ngIf="sortKey() === col.key"
+                  [name]="sortDirection() === 'asc' ? 'chevron-up' : 'chevron-down'"
+                  class="w-4 h-4 text-indigo-500"
+                >
+                </lucide-icon>
+              </div>
+            </th>
+          }
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-100">
+        @for (row of paginatedData(); track $index) {
+          <tr class="hover:bg-slate-50 transition-colors">
+            @for (col of displayColumns(); track col.key) {
+              <td class="px-6 py-4 text-sm text-slate-600">
+                @switch (col.type) {
+                  @case ('route') {
+                    <button
+                      (click)="handleNavigation(col)"
+                      class="flex items-center gap-1 text-indigo-600 hover:text-indigo-800 font-medium cursor-pointer"
+                    >
+                      @if (col.actionIcon) {
+                        <lucide-icon [name]="col.actionIcon" class="w-4 h-4"></lucide-icon>
+                      }
+                      {{ col.label }}
+                    </button>
+                  }
+
+                  @case ('action') {
+                    <button
+                      (click)="handleAction(col, row)"
+                      class="flex items-center gap-1 text-emerald-600 hover:text-emerald-800 font-medium cursor-pointer"
+                    >
+                      @if (col.actionIcon) {
+                        <lucide-icon [name]="col.actionIcon" class="w-4 h-4"></lucide-icon>
+                      }
+                      {{ col.label }}
+                    </button>
+                  }
+
+                  @case ('date') {
+                    <span class="font-medium">{{
+                      getCellValue(row, col) | date: col.format || 'dd/MM/yyyy HH:mm'
+                    }}</span>
+                  }
+                  @case ('number') {
+                    <span class="font-mono">{{
+                      getCellValue(row, col) | number: col.format || '1.0-2'
+                    }}</span>
+                  }
+                  @default {
+                    {{ getCellValue(row, col) }}
+                  }
+                }
+              </td>
+            }
+          </tr>
+        } @empty {
+          <tr>
+            <td [attr.colspan]="displayColumns().length" class="p-10 text-center text-slate-400">
+              <div class="flex flex-col items-center gap-2">
+                <lucide-icon name="loader-2" class="w-8 h-8 animate-spin"></lucide-icon>
+                <p>Load data...</p>
+              </div>
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <div class="p-4 bg-slate-50 flex justify-between items-center border-t border-slate-200">
+    <button (click)="changePage(-1)" [disabled]="currentPage() === 1" class="btn-page text-indigo-600 hover:text-indigo-800 cursor-pointer">Previous</button>
+    <span class="text-xs font-medium">Page {{ currentPage() }}</span>
+    <button (click)="changePage(1)" class="btn-page text-indigo-600 hover:text-indigo-800 cursor-pointer">Next</button>
+  </div>
+</div>

@@ -1,0 +1,300 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74EAE69B-2F7D-4B71-8249-D259A07F75B4}|TeamTasks.csproj|d:\\proyectos\\entrevistas\\nserio\\backend\\teamtasks\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74EAE69B-2F7D-4B71-8249-D259A07F75B4}|TeamTasks.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CE0395-6F14-4A44-A7D2-B3A615B9CDDF}|..\\TeamTasks.DAL\\TeamTasks.DAL.csproj|d:\\proyectos\\entrevistas\\nserio\\backend\\teamtasks.dal\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CE0395-6F14-4A44-A7D2-B3A615B9CDDF}|..\\TeamTasks.DAL\\TeamTasks.DAL.csproj|d:\\proyectos\\entrevistas\\nserio\\backend\\teamtasks.dal\\models\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CE0395-6F14-4A44-A7D2-B3A615B9CDDF}|..\\TeamTasks.DAL\\TeamTasks.DAL.csproj|d:\\proyectos\\entrevistas\\nserio\\backend\\teamtasks.dal\\models\\projectstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CE0395-6F14-4A44-A7D2-B3A615B9CDDF}|..\\TeamTasks.DAL\\TeamTasks.DAL.csproj|d:\\proyectos\\entrevistas\\nserio\\backend\\teamtasks.dal\\models\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CE0395-6F14-4A44-A7D2-B3A615B9CDDF}|..\\TeamTasks.DAL\\TeamTasks.DAL.csproj|d:\\proyectos\\entrevistas\\nserio\\backend\\teamtasks.dal\\models\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CE0395-6F14-4A44-A7D2-B3A615B9CDDF}|..\\TeamTasks.DAL\\TeamTasks.DAL.csproj|d:\\proyectos\\entrevistas\\nserio\\backend\\teamtasks.dal\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CE0395-6F14-4A44-A7D2-B3A615B9CDDF}|..\\TeamTasks.DAL\\TeamTasks.DAL.csproj|d:\\proyectos\\entrevistas\\nserio\\backend\\teamtasks.dal\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CE0395-6F14-4A44-A7D2-B3A615B9CDDF}|..\\TeamTasks.DAL\\TeamTasks.DAL.csproj|d:\\proyectos\\entrevistas\\nserio\\backend\\teamtasks.dal\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E2A0C4-8442-4F0A-8760-1D2890337456}|..\\TeamTasks.BL\\TeamTasks.BL.csproj|d:\\proyectos\\entrevistas\\nserio\\backend\\teamtasks.bl\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EAE69B-2F7D-4B71-8249-D259A07F75B4}|TeamTasks.csproj|d:\\proyectos\\entrevistas\\nserio\\backend\\teamtasks\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EAE69B-2F7D-4B71-8249-D259A07F75B4}|TeamTasks.csproj|solutionrelative:controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC6EC1E-C8A5-480A-A9A0-965DEF33184E}|..\\TeamTasks.Utils\\TeamTasks.Utils.csproj|d:\\proyectos\\entrevistas\\nserio\\backend\\teamtasks.utils\\dtos\\projecttaskrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E2A0C4-8442-4F0A-8760-1D2890337456}|..\\TeamTasks.BL\\TeamTasks.BL.csproj|d:\\proyectos\\entrevistas\\nserio\\backend\\teamtasks.bl\\services\\taskservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CE0395-6F14-4A44-A7D2-B3A615B9CDDF}|..\\TeamTasks.DAL\\TeamTasks.DAL.csproj|d:\\proyectos\\entrevistas\\nserio\\backend\\teamtasks.dal\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EAE69B-2F7D-4B71-8249-D259A07F75B4}|TeamTasks.csproj|d:\\proyectos\\entrevistas\\nserio\\backend\\teamtasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EAE69B-2F7D-4B71-8249-D259A07F75B4}|TeamTasks.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EAE69B-2F7D-4B71-8249-D259A07F75B4}|TeamTasks.csproj|d:\\proyectos\\entrevistas\\nserio\\backend\\teamtasks\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EAE69B-2F7D-4B71-8249-D259A07F75B4}|TeamTasks.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC6EC1E-C8A5-480A-A9A0-965DEF33184E}|..\\TeamTasks.Utils\\TeamTasks.Utils.csproj|d:\\proyectos\\entrevistas\\nserio\\backend\\teamtasks.utils\\dtos\\developerworkloaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-21T00:21:15.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Priority.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Models\\Priority.cs",
+              "RelativeDocumentMoniker": "..\\TeamTasks.DAL\\Models\\Priority.cs",
+              "ToolTip": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Models\\Priority.cs",
+              "RelativeToolTip": "..\\TeamTasks.DAL\\Models\\Priority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T00:03:15.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskStatus.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Models\\TaskStatus.cs",
+              "RelativeDocumentMoniker": "..\\TeamTasks.DAL\\Models\\TaskStatus.cs",
+              "ToolTip": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Models\\TaskStatus.cs",
+              "RelativeToolTip": "..\\TeamTasks.DAL\\Models\\TaskStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T00:03:07.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Developer.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Models\\Developer.cs",
+              "RelativeDocumentMoniker": "..\\TeamTasks.DAL\\Models\\Developer.cs",
+              "ToolTip": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Models\\Developer.cs",
+              "RelativeToolTip": "..\\TeamTasks.DAL\\Models\\Developer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T00:02:54.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "..\\TeamTasks.DAL\\Models\\Project.cs",
+              "ToolTip": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Models\\Project.cs",
+              "RelativeToolTip": "..\\TeamTasks.DAL\\Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T00:02:35.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "..\\TeamTasks.DAL\\Models\\Task.cs",
+              "ToolTip": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Models\\Task.cs",
+              "RelativeToolTip": "..\\TeamTasks.DAL\\Models\\Task.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA1wBwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T00:01:56.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "..\\TeamTasks.DAL\\Repositories\\TaskRepository.cs",
+              "ToolTip": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "..\\TeamTasks.DAL\\Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T23:58:38.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TaskServices.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.BL\\Services\\TaskServices.cs",
+              "RelativeDocumentMoniker": "..\\TeamTasks.BL\\Services\\TaskServices.cs",
+              "ToolTip": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.BL\\Services\\TaskServices.cs",
+              "RelativeToolTip": "..\\TeamTasks.BL\\Services\\TaskServices.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T22:27:01.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProjectTaskRequestDto.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.Utils\\Dtos\\ProjectTaskRequestDto.cs",
+              "RelativeDocumentMoniker": "..\\TeamTasks.Utils\\Dtos\\ProjectTaskRequestDto.cs",
+              "ToolTip": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.Utils\\Dtos\\ProjectTaskRequestDto.cs",
+              "RelativeToolTip": "..\\TeamTasks.Utils\\Dtos\\ProjectTaskRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T22:23:15.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectStatus.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Models\\ProjectStatus.cs",
+              "RelativeDocumentMoniker": "..\\TeamTasks.DAL\\Models\\ProjectStatus.cs",
+              "ToolTip": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Models\\ProjectStatus.cs",
+              "RelativeToolTip": "..\\TeamTasks.DAL\\Models\\ProjectStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T19:42:58.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\TeamTasks.DAL\\Models\\AppDbContext.cs",
+              "ToolTip": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "..\\TeamTasks.DAL\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAewBoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T19:31:40.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.BL\\Services\\ProjectService.cs",
+              "RelativeDocumentMoniker": "..\\TeamTasks.BL\\Services\\ProjectService.cs",
+              "ToolTip": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.BL\\Services\\ProjectService.cs",
+              "RelativeToolTip": "..\\TeamTasks.BL\\Services\\ProjectService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAawB8AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T19:12:56.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProjectRepository.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Repositories\\ProjectRepository.cs",
+              "RelativeDocumentMoniker": "..\\TeamTasks.DAL\\Repositories\\ProjectRepository.cs",
+              "ToolTip": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.DAL\\Repositories\\ProjectRepository.cs",
+              "RelativeToolTip": "..\\TeamTasks.DAL\\Repositories\\ProjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T19:12:46.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProjectController.cs",
+              "ToolTip": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "Controllers\\ProjectController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T22:54:25.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DeveloperWorkloadDto.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.Utils\\Dtos\\DeveloperWorkloadDto.cs",
+              "RelativeDocumentMoniker": "..\\TeamTasks.Utils\\Dtos\\DeveloperWorkloadDto.cs",
+              "ToolTip": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks.Utils\\Dtos\\DeveloperWorkloadDto.cs",
+              "RelativeToolTip": "..\\TeamTasks.Utils\\Dtos\\DeveloperWorkloadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T21:45:54.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T21:45:37.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Proyectos\\Entrevistas\\NSerio\\Backend\\TeamTasks\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T18:11:05.659Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

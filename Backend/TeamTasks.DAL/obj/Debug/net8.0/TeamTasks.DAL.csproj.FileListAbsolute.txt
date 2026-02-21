@@ -1,0 +1,17 @@
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.DAL\bin\Debug\net8.0\TeamTasks.DAL.deps.json
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.DAL\bin\Debug\net8.0\TeamTasks.DAL.runtimeconfig.json
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.DAL\bin\Debug\net8.0\TeamTasks.DAL.dll
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.DAL\bin\Debug\net8.0\TeamTasks.DAL.pdb
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.DAL\bin\Debug\net8.0\TeamTasks.Utils.dll
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.DAL\bin\Debug\net8.0\TeamTasks.Utils.pdb
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.DAL\obj\Debug\net8.0\TeamTasks.DAL.csproj.AssemblyReference.cache
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.DAL\obj\Debug\net8.0\TeamTasks.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.DAL\obj\Debug\net8.0\TeamTasks.DAL.AssemblyInfoInputs.cache
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.DAL\obj\Debug\net8.0\TeamTasks.DAL.AssemblyInfo.cs
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.DAL\obj\Debug\net8.0\TeamTasks.DAL.csproj.CoreCompileInputs.cache
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.DAL\obj\Debug\net8.0\TeamTask.EF597D7F.Up2Date
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.DAL\obj\Debug\net8.0\TeamTasks.DAL.dll
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.DAL\obj\Debug\net8.0\refint\TeamTasks.DAL.dll
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.DAL\obj\Debug\net8.0\TeamTasks.DAL.pdb
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.DAL\obj\Debug\net8.0\TeamTasks.DAL.genruntimeconfig.cache
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.DAL\obj\Debug\net8.0\ref\TeamTasks.DAL.dll

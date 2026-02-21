@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeamTasks.DAL\TeamTasks.DAL.csproj" />
+    <ProjectReference Include="..\TeamTasks.Utils\TeamTasks.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
