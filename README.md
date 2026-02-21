@@ -94,7 +94,6 @@ Para conectar el backend con la base de datos configurada previamente:
 
 <img width="518" height="941" alt="Captura de pantalla 2026-02-21 124927" src="https://github.com/user-attachments/assets/78494d8c-4db7-4f57-bb32-71e95ca40423" />
 
-![Arquitectura Backend](https://i.imgur.com/JULUq0n.png)
 
 ---
 
