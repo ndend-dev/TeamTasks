@@ -160,9 +160,6 @@ Es el panel principal que consolida las métricas clave de la aplicación.
 <img width="1900" height="949" alt="Captura de pantalla 2026-02-21 135752" src="https://github.com/user-attachments/assets/43672443-9151-48b3-a16a-147437399178" />
 
 
-[<img src="https://i.imgur.com/O5abXVV.png" alt="Dashboard" width="600px">](https://i.imgur.com/JULUq0n.png)
-
-
 ### Proyectos (Projects)
 
 Listado maestro de los proyectos activos en el sistema.
