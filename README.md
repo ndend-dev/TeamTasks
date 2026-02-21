@@ -99,7 +99,7 @@ Para conectar el backend con la base de datos configurada previamente:
 
 # Frontend: TeamTasksDashboard (Angular 21)
 
-Esta carpeta, ubicada en **`Frontend`**, contiene la interfaz de usuario desarrollada en **Angular 21**. El diseño es completamente responsivo y utiliza herramientas modernas.
+Esta carpeta, ubicada en **`Frontend/TeamTasksDashboard`**, contiene la interfaz de usuario desarrollada en **Angular 21**. El diseño es completamente responsivo y utiliza herramientas modernas.
 
 ## Tecnologías Implementadas
 
@@ -121,7 +121,7 @@ Siga estos pasos para levantar el entorno de desarrollo:
 Navegue a la carpeta del frontend y descargue los paquetes necesarios:
 
 ```bash
-cd Frontend
+cd Frontend/TeamTasksDashboard
 npm install
 ```
 
@@ -139,7 +139,7 @@ La aplicación estará disponible en `http://localhost:4200`.
 
 ## Organización del Código (`src/app`)
 
-La arquitectura del frontend en la carpeta **`/Frontend`** se divide en cuatro pilares fundamentales para mantener el orden y la escalabilidad:
+La arquitectura del frontend en la carpeta **`/Frontend/TeamTasksDashboard`** se divide en cuatro pilares fundamentales para mantener el orden y la escalabilidad:
 
 - **`pages/`**: Contiene los componentes que representan las vistas completas de la aplicación (ej: Dashboard, Projects, Project Task, Developers, etc). Actúan como contenedores de alto nivel.
 - **`components/`**: Elementos de interfaz reutilizables (Tabla dinamica, Sidebar, Detalles de tareas, y creacion de tares).
