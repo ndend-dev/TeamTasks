@@ -175,7 +175,8 @@ Es el panel principal que consolida las métricas clave de la aplicación.
   <img src="https://i.imgur.com/O5abXVV.png" alt="Dashboard" width="600px">
 </p>
 
-![src="https://i.imgur.com/O5abXVV.png"](https://i.imgur.com/JULUq0n.png)
+[<img src="https://i.imgur.com/O5abXVV.png" alt="Dashboard" width="600px">](https://i.imgur.com/JULUq0n.png)
+
 
 ### Proyectos (Projects)
 
