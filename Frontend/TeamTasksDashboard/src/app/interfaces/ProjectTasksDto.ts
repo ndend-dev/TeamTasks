@@ -1,3 +1,7 @@
+import { AssignedDto } from "./AssignedDto"
+import { PriorityDto } from "./PriorityDto"
+import { TaskStatusesDto } from "./TaskStatusesDto"
+
 export interface ProjectTasksDto {
     taskId: string,
     projectId: string,
@@ -9,8 +13,7 @@ export interface ProjectTasksDto {
     estimatedComplexity: string,
     dueDate: string,
     completionDate: string,
-    assigned: string,
-    priority: string,
-    project: string
-    status: string
+    assigned: AssignedDto,
+    priority: PriorityDto,
+    status: TaskStatusesDto
 }
