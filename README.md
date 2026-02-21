@@ -92,9 +92,7 @@ Para conectar el backend con la base de datos configurada previamente:
 3. Ejecute mediante el perfil de **http/https**.
 4. **Swagger** se iniciará automáticamente para probar los endpoints.
 
-<p align="center">
-  <img src="https://imgur.com/a/klrpiHP" alt="Arquitectura Backend" width="600px">
-</p>
+<img width="518" height="941" alt="Captura de pantalla 2026-02-21 124927" src="https://github.com/user-attachments/assets/78494d8c-4db7-4f57-bb32-71e95ca40423" />
 
 ---
 
@@ -169,9 +167,8 @@ Es el panel principal que consolida las métricas clave de la aplicación.
 
 - **Contenido:** Tablas dinámicas que muestran los resultados directos de los SPs de análisis y riesgos.
 
-<p align="center">
-  <img src="https://imgur.com/O5abXVV" alt="Dashboard" width="600px">
-</p>
+<img width="1900" height="949" alt="Captura de pantalla 2026-02-21 135752" src="https://github.com/user-attachments/assets/43672443-9151-48b3-a16a-147437399178" />
+
 
 ### Proyectos (Projects)
 
@@ -179,9 +176,9 @@ Listado maestro de los proyectos activos en el sistema.
 
 - **Funcionalidad:** Muestra la información general de cada proyecto. Al hacer clic en el botón de acción de la tabla, redirige o despliega el detalle de tareas asociadas a ese proyecto específico.
 
-<p align="center">
-  <img src="https://imgur.com/YlbsR21" alt="Projects" width="600px">
-</p>
+<img width="1919" height="951" alt="Captura de pantalla 2026-02-21 135859" src="https://github.com/user-attachments/assets/9733e0fe-2cee-494b-a10f-4e41f445ea18" />
+
+
 
 ### Tareas por Proyecto
 
@@ -189,9 +186,8 @@ Vista detallada que se activa desde la pantalla de Proyectos.
 
 - **Funcionalidad:** Filtra y visualiza únicamente las tareas pertenecientes al proyecto seleccionado.
 
-<p align="center">
-  <img src="https://imgur.com/tuM2oCl" alt="Project Task" width="600px">
-</p>
+<img width="1916" height="951" alt="Captura de pantalla 2026-02-21 135927" src="https://github.com/user-attachments/assets/3e9f342b-e50a-41ff-b525-fdfc706c8a27" />
+
 
 ### Registro de Tareas (Modal)
 
@@ -200,32 +196,28 @@ Componente emergente desarrollado con **Angular CDK**.
 - **Funcionalidad:** Formulario para la creación de nuevas tareas. Utiliza el SP `Core.sp_insert_task` y confirma el éxito del registro mediante un aviso de **NGX-Toastr**.
 - **Captura:**
 
-<p align="center">
-  <img src="https://imgur.com/fTDbynr" alt="ANew Task" width="600px">
-</p>
+<img width="1913" height="941" alt="Captura de pantalla 2026-02-21 135915" src="https://github.com/user-attachments/assets/9946fb55-cf31-4f3d-a813-a5e642075780" />
+
 
 ### Desarrolladores (Developers)
 
 Presenta el listado completo de los desarrolladores registrados en el sistema
 
-<p align="center">
-  <img src="https://imgur.com/degP8XW" alt="Developers" width="600px">
-</p>
+<img width="1918" height="953" alt="Captura de pantalla 2026-02-21 135940" src="https://github.com/user-attachments/assets/3435d6c7-8050-4d8c-a335-8a15f3ee40b1" />
+
 
 ### Estados de Projecto (Project Status)
 
 Presenta el listado de los diferentes estados disponibles para las tareas.
 
-<p align="center">
-  <img src="https://imgur.com/UEXh6mV" alt="Project Status" width="600px">
-</p>
+<img width="1919" height="949" alt="Captura de pantalla 2026-02-21 140022" src="https://github.com/user-attachments/assets/fc2fde82-1d5c-4297-ba5c-94b491be1a34" />
+
 
 ### Estados de Tareas (Task Status)
 
 Ppresenta el listado de los diferentes estados disponibles para las tareas.
 
-<p align="center">
-  <img src="https://imgur.com/X68pQ74" alt="Task Status" width="600px">
-</p>
+<img width="1917" height="948" alt="Captura de pantalla 2026-02-21 135949" src="https://github.com/user-attachments/assets/6fc1f8da-3c35-4bca-bb4c-23f54b943984" />
+
 
 ---
