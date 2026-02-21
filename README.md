@@ -170,7 +170,7 @@ Es el panel principal que consolida las métricas clave de la aplicación.
 - **Contenido:** Tablas dinámicas que muestran los resultados directos de los SPs de análisis y riesgos.
 
 <p align="center">
-  <img src="https://imgur.com/O5abXVV" alt="Dashboard" width="600px">
+  <img src="https://i.imgur.com/O5abXVV.png" alt="Dashboard" width="600px">
 </p>
 
 ### Proyectos (Projects)
@@ -180,7 +180,7 @@ Listado maestro de los proyectos activos en el sistema.
 - **Funcionalidad:** Muestra la información general de cada proyecto. Al hacer clic en el botón de acción de la tabla, redirige o despliega el detalle de tareas asociadas a ese proyecto específico.
 
 <p align="center">
-  <img src="https://imgur.com/YlbsR21" alt="Projects" width="600px">
+  <img src="https://i.imgur.com/YlbsR21.png" alt="Projects" width="600px">
 </p>
 
 ### Tareas por Proyecto
@@ -190,7 +190,7 @@ Vista detallada que se activa desde la pantalla de Proyectos.
 - **Funcionalidad:** Filtra y visualiza únicamente las tareas pertenecientes al proyecto seleccionado.
 
 <p align="center">
-  <img src="https://imgur.com/tuM2oCl" alt="Project Task" width="600px">
+  <img src="https://i.imgur.com/tuM2oCl.png" alt="Project Task" width="600px">
 </p>
 
 ### Registro de Tareas (Modal)
@@ -201,7 +201,7 @@ Componente emergente desarrollado con **Angular CDK**.
 - **Captura:**
 
 <p align="center">
-  <img src="https://imgur.com/fTDbynr" alt="ANew Task" width="600px">
+  <img src="https://i.imgur.com/fTDbynr.png" alt="ANew Task" width="600px">
 </p>
 
 ### Desarrolladores (Developers)
@@ -209,7 +209,7 @@ Componente emergente desarrollado con **Angular CDK**.
 Presenta el listado completo de los desarrolladores registrados en el sistema
 
 <p align="center">
-  <img src="https://imgur.com/degP8XW" alt="Developers" width="600px">
+  <img src="https://i.imgur.com/degP8XW.png" alt="Developers" width="600px">
 </p>
 
 ### Estados de Projecto (Project Status)
@@ -217,7 +217,7 @@ Presenta el listado completo de los desarrolladores registrados en el sistema
 Presenta el listado de los diferentes estados disponibles para las tareas.
 
 <p align="center">
-  <img src="https://imgur.com/UEXh6mV" alt="Project Status" width="600px">
+  <img src="https://i.imgur.com/UEXh6mV.png" alt="Project Status" width="600px">
 </p>
 
 ### Estados de Tareas (Task Status)
@@ -225,7 +225,7 @@ Presenta el listado de los diferentes estados disponibles para las tareas.
 Ppresenta el listado de los diferentes estados disponibles para las tareas.
 
 <p align="center">
-  <img src="https://imgur.com/X68pQ74" alt="Task Status" width="600px">
+  <img src="https://i.imgur.com/X68pQ74.png" alt="Task Status" width="600px">
 </p>
 
 ---
