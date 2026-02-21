@@ -92,6 +92,10 @@ Para conectar el backend con la base de datos configurada previamente:
 3. Ejecute mediante el perfil de **http/https**.
 4. **Swagger** se iniciará automáticamente para probar los endpoints.
 
+<p align="center">
+  <img src="https://i.imgur.com/JULUq0n.png" alt="Arquitectura Backend" width="600px">
+</p>
+
 ![Arquitectura Backend](https://i.imgur.com/JULUq0n.png)
 
 ---
@@ -170,6 +174,8 @@ Es el panel principal que consolida las métricas clave de la aplicación.
 <p align="center">
   <img src="https://i.imgur.com/O5abXVV.png" alt="Dashboard" width="600px">
 </p>
+
+![image](https://i.imgur.com/JULUq0n.png)
 
 ### Proyectos (Projects)
 
