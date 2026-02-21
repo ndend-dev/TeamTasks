@@ -56,35 +56,37 @@ export class DinamicTable {
 
   paginatedData = computed(() => {
     const start = (this.currentPage() - 1) * this.pageSize();
-    return this.sortedData().slice(start, start + this.pageSize());
+    const end = start + this.pageSize();
+    return this.sortedData().slice(start, end);
   });
 
   totalPages = computed(() => {
-    if (this.data.length === 0) return 1;
-
-    return Math.ceil(this.data.length / this.pageSize());
+    const total = this.data().length;
+    return Math.ceil(total / this.pageSize());
   });
 
   getCellValue(row: any, col: ConfigColumns): any {
-  const key = col.key;
+    const key = col.key;
 
-  if (key.includes(' ') || key.includes(',')) {
-    const keys = key.split(/[ ,]+/).filter(k => k.trim() !== '');
-    
-    return keys.map(k => {
-      if (k.includes('.')) {
-        return k.split('.').reduce((acc, part) => acc && acc[part], row);
-      }
-      return row[k];
-    }).join(' ');
+    if (key.includes(' ') || key.includes(',')) {
+      const keys = key.split(/[ ,]+/).filter((k) => k.trim() !== '');
+
+      return keys
+        .map((k) => {
+          if (k.includes('.')) {
+            return k.split('.').reduce((acc, part) => acc && acc[part], row);
+          }
+          return row[k];
+        })
+        .join(' ');
+    }
+
+    if (key.includes('.')) {
+      return key.split('.').reduce((acc, part) => acc && acc[part], row);
+    }
+
+    return row[key];
   }
-
-  if (key.includes('.')) {
-    return key.split('.').reduce((acc, part) => acc && acc[part], row);
-  }
-
-  return row[key];
-}
 
   toggleSort(key: string) {
     if (this.sortKey() === key) {
@@ -96,16 +98,11 @@ export class DinamicTable {
   }
 
   changePage(delta: number) {
-    const total = this.totalPages();
+    const newPage = this.currentPage() + delta;
 
-    this.currentPage.update((p: number): number => {
-      const next = p + delta;
-
-      if (next < 1) return 1;
-      if (next > total) return total;
-
-      return next;
-    });
+    if (newPage > 0 && newPage <= this.totalPages()) {
+      this.currentPage.set(newPage);
+    }
   }
 
   handleNavigation(col: ConfigColumns) {

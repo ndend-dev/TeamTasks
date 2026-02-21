@@ -1,55 +1,103 @@
 <div class="bg-white rounded-xl shadow-2xl overflow-hidden max-w-2xl w-full">
   <div class="p-6 border-b bg-slate-50 flex justify-between items-center">
     <h2 class="text-xl font-bold text-slate-800 flex items-center gap-2">
-      <i class="lucide-plus-circle text-indigo-600"></i> New Task
+      <lucide-icon name="notebook-tabs"></lucide-icon>
+      New Task
     </h2>
     <button (click)="ref.close()" class="text-slate-400 hover:text-slate-600">✕</button>
   </div>
 
   <form [formGroup]="taskForm" (ngSubmit)="onSubmit()" class="p-6 space-y-4">
     <div>
+      <label class="block text-sm font-semibold text-slate-700 mb-1">Project</label>
+      <select formControlName="projectId" class="w-full p-2.5 border rounded-lg bg-white">
+        <option value="">Select...</option>
+        @for (item of projectList; track item.projectId) {
+          <option [value]="item.projectId">{{ item.name }}</option>
+        }
+      </select>
+    </div>
+
+    <div>
       <label class="block text-sm font-semibold text-slate-700 mb-1">Task Title</label>
-      <input formControlName="title" type="text" 
-             class="w-full p-2.5 border rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none"
-             placeholder="Ej: Implementar Login">
+      <input
+        formControlName="title"
+        type="text"
+        class="w-full p-2.5 border rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none"
+        placeholder="Implement Login"
+      />
     </div>
 
     <div>
       <label class="block text-sm font-semibold text-slate-700 mb-1">Description</label>
-      <textarea formControlName="description" rows="3"
-                class="w-full p-2.5 border rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none"
-                placeholder="Detalles de la tarea..."></textarea>
+      <textarea
+        formControlName="description"
+        rows="3"
+        class="w-full p-2.5 border rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none"
+        placeholder="Task description..."
+      ></textarea>
+    </div>
+
+    <div>
+      <label class="block text-sm font-semibold text-slate-700 mb-1">Assigned to</label>
+      <select formControlName="assignedId" class="w-full p-2.5 border rounded-lg bg-white">
+        <option value="">Select...</option>
+        @for (item of developerList; track item.developerId) {
+          <option [value]="item.developerId">{{ item.firstName }} {{ item.lastName }}</option>
+        }
+      </select>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
       <div>
-        <label class="block text-sm font-semibold text-slate-700 mb-1">Status</label>
-        <select formControlName="statusId" class="w-full p-2.5 border rounded-lg bg-white">
+        <label class="block text-sm font-semibold text-slate-700 mb-1">Priority</label>
+        <select formControlName="priorityId" class="w-full p-2.5 border rounded-lg bg-white">
           <option value="">Select...</option>
-          @for (item of data.statuses; track item.id) {
-            <option [value]="item.id">{{ item.name }}</option>
+          @for (item of priorityList; track item.priorityId) {
+            <option [value]="item.priorityId">{{ item.name }}</option>
           }
         </select>
+      </div>
+      <div>
+        <label class="block text-sm font-semibold text-slate-700 mb-1">Due Date</label>
+        <input
+          formControlName="dueDate"
+          type="date"
+          class="w-full p-2.5 border rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none"
+        />
       </div>
 
-      <div>
-        <label class="block text-sm font-semibold text-slate-700 mb-1">Assigned to</label>
-        <select formControlName="developerId" class="w-full p-2.5 border rounded-lg bg-white">
-          <option value="">Select...</option>
-          @for (item of data.developers; track item.id) {
-            <option [value]="item.id">{{ item.firstName }} {{ item.lastName }}</option>
-          }
-        </select>
-      </div>
+      
+
     </div>
 
+     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <!-- complexity -->
+       <div>
+        <label class="block text-sm font-semibold text-slate-700 mb-1">Complexity</label>
+        <input
+          formControlName="estimatedComplexity"
+          type="number"
+          min="1"
+          max="5"
+          class="w-full p-2.5 border rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none"
+          placeholder="1 (Low) - 5 (High)"> 
+       </div>
+     </div>
+
     <div class="flex justify-end gap-3 pt-6 border-t mt-4">
-      <button type="button" (click)="ref.close()" 
-              class="px-5 py-2.5 text-slate-600 hover:bg-slate-100 rounded-lg transition-all">
+      <button
+        type="button"
+        (click)="ref.close()"
+        class="px-5 py-2.5 text-slate-600 hover:bg-slate-100 rounded-lg transition-all"
+      >
         Cancel
       </button>
-      <button type="submit" [disabled]="taskForm.invalid"
-              class="px-5 py-2.5 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 disabled:opacity-50 transition-all">
+      <button
+        type="submit"
+        [disabled]="taskForm.invalid"
+        class="px-5 py-2.5 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 disabled:opacity-50 transition-all"
+      >
         Save Task
       </button>
     </div>

@@ -961,10 +961,6 @@
             "type": "string",
             "format": "uuid"
           },
-          "statusId": {
-            "type": "string",
-            "format": "uuid"
-          },
           "priorityId": {
             "type": "string",
             "format": "uuid"

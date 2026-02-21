@@ -91,11 +91,15 @@ namespace TeamTasks.DAL.Repositories
 
         private async Task<int> CreateTaskWithSP(Models.Task task)
         {
+
+            var statusIdVal = _dbContext.TaskStatuses.Where(x => x.Name == "ToDo").FirstOrDefault().StatusId;
+               
+
             var projectId = new SqlParameter("@ProjectId", task.ProjectId);
             var title = new SqlParameter("@Title", task.Title);
             var description = new SqlParameter("@Description", task.Description);
             var developerId = new SqlParameter("@DeveloperId", task.AssignedId);
-            var statusId = new SqlParameter("@StatusId", task.StatusId);
+            var statusId = new SqlParameter("@StatusId", statusIdVal);
             var priorityId = new SqlParameter("@PriorityId", task.PriorityId);
             var estimatedComplexity = new SqlParameter("@EstimatedComplexity", task.EstimatedComplexity);
             var dueDate = new SqlParameter("@DueDate", task.DueDate);

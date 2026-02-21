@@ -10,8 +10,6 @@
 
         public Guid AssignedId { get; set; }
 
-        public Guid StatusId { get; set; }
-
         public Guid PriorityId { get; set; }
 
         public byte EstimatedComplexity { get; set; }

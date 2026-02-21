@@ -150,3 +150,4 @@ D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks\obj\Debug\net8.0\refint\TeamTa
 D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks\obj\Debug\net8.0\TeamTasks.pdb
 D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks\obj\Debug\net8.0\TeamTasks.genruntimeconfig.cache
 D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks\obj\Debug\net8.0\ref\TeamTasks.dll
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks\obj\Debug\net8.0\TeamTasks.sourcelink.json

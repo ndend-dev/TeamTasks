@@ -7,9 +7,8 @@
     </header>
 
     <div class="p-4 md:p-8 overflow-y-auto">
-
-        <!-- Content -->
-
+      <app-dinamic-table class="mt-6" [data]="taskStatusList" [configColumns]="taskStatusConfig">
+      </app-dinamic-table>
     </div>
   </main>
 </div>

@@ -137,3 +137,21 @@ CREATE TABLE Core.Tasks
 	CompletionDate DATETIME2,
 	CreatedAt DATETIME2 NOT NULL DEFAULT GETDATE()
 );
+
+
+-- DATA DE PRUEBA 
+INSERT INTO [Core].[Projects] (Name, ClientName, StartDate, EndDate, StatudId)
+VALUES 
+('Team Frontend', 'NSerio', GETDATE() - 10, GETDATE(), (SELECT StatusId FROM [Core].[ProjectStatuses] WHERE Name = 'Completed')),
+('Team Tasks', 'NSerio', GETDATE() - 4, GETDATE() + 5, (SELECT StatusId FROM [Core].[ProjectStatuses] WHERE Name = 'Planned')),
+('Team Backend', 'NSerio', GETDATE(), GETDATE() + 10, (SELECT StatusId FROM [Core].[ProjectStatuses] WHERE Name = 'InProgress'))
+
+INSERT INTO [Core].[Tasks] (ProjectId, Title, Description, AssignedId, StatusId, PriorityId, EstimatedComplexity, DueDate) 
+VALUES((SELECT TOP 1 ProjectId FROM [Core].[Projects]), 'Team Tasks', 'Crear una SPA que consuma la API, incluyendo endpoints de dashboard y riesgo, y 
+presente la información de forma clara y usable', (SELECT TOP 1 DeveloperId FROM [Core].[Developers] WHERE IsActive = 1 ORDER BY FirstName DESC),
+(SELECT StatusId FROM [Core].[TaskStatuses] WHERE Name = 'ToDo'), (SELECT PriorityId FROM [Core].[Priority] WHERE Name = 'Medium'), 5, GETDATE() + 1)
+
+INSERT INTO [Core].[Tasks] (ProjectId, Title, Description, AssignedId, StatusId, PriorityId, EstimatedComplexity, DueDate) 
+VALUES((SELECT TOP 1 ProjectId FROM [Core].[Projects]), 'Team Tasks', 'Crear una SPA que consuma la API, incluyendo endpoints de dashboard y riesgo, y 
+presente la información de forma clara y usable', (SELECT TOP 1 DeveloperId FROM [Core].[Developers] WHERE IsActive = 1 ORDER BY FirstName),
+(SELECT StatusId FROM [Core].[TaskStatuses] WHERE Name = 'Completed'), (SELECT PriorityId FROM [Core].[Priority] WHERE Name = 'Medium'), 5, GETDATE() + 1)

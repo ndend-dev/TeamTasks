@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TeamTasks.Utils")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1391ca162d2e9fd5a6653c63f3dd143f0205549c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TeamTasks.Utils")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TeamTasks.Utils")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

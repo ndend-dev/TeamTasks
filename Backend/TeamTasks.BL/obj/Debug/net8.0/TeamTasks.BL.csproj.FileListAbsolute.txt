@@ -15,3 +15,4 @@ D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.BL\obj\Debug\net8.0\TeamTasks.
 D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.BL\obj\Debug\net8.0\refint\TeamTasks.BL.dll
 D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.BL\obj\Debug\net8.0\TeamTasks.BL.pdb
 D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.BL\obj\Debug\net8.0\ref\TeamTasks.BL.dll
+D:\Proyectos\Entrevistas\NSerio\Backend\TeamTasks.BL\obj\Debug\net8.0\TeamTasks.BL.sourcelink.json

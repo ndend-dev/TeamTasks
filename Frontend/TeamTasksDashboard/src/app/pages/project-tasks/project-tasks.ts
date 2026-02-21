@@ -12,6 +12,7 @@ import { TaskStatusesDto } from '../../interfaces/TaskStatusesDto';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { DevelopersDto } from '../../interfaces/DevelopersDto';
+import { TaskNew } from '../../components/task-new/task-new';
 
 @Component({
   selector: 'app-project-tasks',
@@ -124,7 +125,7 @@ export class ProjectTasks {
     });
   }
 
-  openCreateModal() {}
+  
 
   viewTaskDetails(row: ProjectTasksDto) {
     const dialogRef = this.dialog.open(TaskDetailsComponents, {

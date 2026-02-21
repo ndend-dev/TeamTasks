@@ -36,7 +36,6 @@ namespace TeamTasks.BL.Services
                     Title = taskreq.Title,
                     Description = taskreq.Description,
                     AssignedId = taskreq.AssignedId,
-                    StatusId = taskreq.StatusId,
                     PriorityId = taskreq.PriorityId,
                     EstimatedComplexity = taskreq.EstimatedComplexity,
                     DueDate = taskreq.DueDate,
